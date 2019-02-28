@@ -12,16 +12,18 @@ body {
     box-shadow: 4px 0px 4px #888888;
     margin: auto;
     margin-top: 2.5em;
-    padding: 1em;
+   
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
 
 }
 .availability {
     background-color: darkgrey;
     font-size: 1.3em;
     color: yellow;
-    width:100%;
+    width: 100%;
     margin-bottom: -0.5em;
     margin-top: 0;
+
 }
 
 .productName {
@@ -32,6 +34,7 @@ body {
 
 img {
     width: 80%;
+    /* mix-blend-mode: multiply;s */
     display:block;
     margin:auto;
 }
@@ -39,12 +42,18 @@ img {
 .descriptionText {
     text-align: justify;   
     font-size: .9em;
+    padding: 1em;
 }
 
 .bold {
     font-weight: bold;
     font-size: .9em;
     margin-left: 1em;
+}
+
+.specifications, .pricing {
+    padding-left: 1em;
+
 }
 
 footer {
