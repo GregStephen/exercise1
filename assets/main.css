@@ -1,0 +1,52 @@
+body {
+    font-size: 14px;
+}
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.card {
+    width: 30%;
+    box-shadow: 4px 0px 4px #888888;
+    margin: auto;
+    margin-top: 2.5em;
+    padding: 1em;
+
+}
+.availability {
+    background-color: darkgrey;
+    font-size: 1.3em;
+    color: yellow;
+    width:100%;
+    margin-bottom: -0.5em;
+    margin-top: 0;
+}
+
+.productName {
+    text-align: center;
+    border: 1px solid lightblue;
+    margin-bottom: 0;
+}
+
+img {
+    width: 80%;
+    display:block;
+    margin:auto;
+}
+
+.descriptionText {
+    text-align: justify;   
+    font-size: .9em;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: .9em;
+    margin-left: 1em;
+}
+
+footer {
+    font-size: .70em;
+}
