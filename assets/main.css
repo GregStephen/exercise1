@@ -1,10 +1,18 @@
 body {
     font-size: 14px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 5em;
+    
 }
 .container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-content: space-around;
 }
 .card {
@@ -12,10 +20,9 @@ body {
     box-shadow: 4px 0px 4px #888888;
     margin: auto;
     margin-top: 2.5em;
-   
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
 
 }
+
 .availability {
     background-color: darkgrey;
     font-size: 1.3em;
@@ -29,7 +36,8 @@ body {
 .productName {
     text-align: center;
     border: 1px solid lightblue;
-    margin-bottom: 0;
+    margin-bottom: 1em;
+    font-size: 2em;
 }
 
 img {
@@ -37,6 +45,7 @@ img {
     /* mix-blend-mode: multiply;s */
     display:block;
     margin:auto;
+    height: 50%;
 }
 
 .descriptionText {
