@@ -7,20 +7,33 @@ h1 {
     text-align: center;
     text-decoration: underline;
     font-size: 5em;
-    
 }
+
+img {
+    width: 80%;
+    /* mix-blend-mode: multiply;s */
+    display:block;
+    margin:auto;
+    height: 22em;
+}
+
+footer {
+    font-size: .70em;
+}
+
 .container {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     align-content: space-around;
 }
+
 .card {
     width: 30%;
-    box-shadow: 4px 0px 4px #888888;
+    box-shadow: 10px 10px 6px #888888;
     margin: auto;
     margin-top: 2.5em;
-
+    position: relative;
 }
 
 .availability {
@@ -30,7 +43,6 @@ h1 {
     width: 100%;
     margin-bottom: -0.5em;
     margin-top: 0;
-
 }
 
 .productName {
@@ -38,14 +50,6 @@ h1 {
     border: 1px solid lightblue;
     margin-bottom: 1em;
     font-size: 2em;
-}
-
-img {
-    width: 80%;
-    /* mix-blend-mode: multiply;s */
-    display:block;
-    margin:auto;
-    height: 50%;
 }
 
 .descriptionText {
@@ -65,6 +69,9 @@ img {
 
 }
 
-footer {
-    font-size: .70em;
+.soldOut {
+    position: absolute;
+    z-index: 2;
+    top:5%;
+    left: 10%;
 }
