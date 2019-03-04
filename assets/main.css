@@ -7,10 +7,14 @@ h1 {
     flex-grow: 1;
     text-align: center;
     text-decoration: underline;
+    text-decoration-color: #CDDC39;
     font-size: 5em;
     
 }
 
+h3 {
+    text-decoration: underline;
+}
 img {
     width: 80%;
     /* mix-blend-mode: multiply;s */
@@ -33,14 +37,12 @@ footer {
 .card {
     flex: 1 50%;
     /* width: 30%; */
-    box-shadow: 10px 10px 6px #888888;
+    box-shadow: 10px 10px 50px #CDDC39;
     margin: 10%;
     margin-top: 2.5em; 
     position: relative;
     border-radius: 4%;
     min-width: 250px;
-    
-
 }
 
 .availability {
@@ -54,7 +56,7 @@ footer {
 
 .productName {
     text-align: center;
-    border: 1px solid lightblue;
+    border: 1px solid #CDDC39;
     margin-bottom: 1em;
     font-size: 2em;
 }
@@ -73,21 +75,41 @@ footer {
 
 .specifications, .pricing {
     padding-left: 1em;
+}
 
+.buyBtn {
+    background-color: #CDDC39;
+    width: 80%;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    border-radius: 25%;
+    padding: .5em;
+    margin-bottom: 1em;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.buyBtn:hover {
+    background-color: #CFD8DC
 }
 
 .soldOut {
     position: absolute;
     z-index: 2;
     top:5%;
-    left: 10%;
+    left: 3%;
+    width:100%;
 }
 
+#soldOut {
+    flex-shrink: 0;
+}
 
 
 /*//////////////  MEDIA QUERIES  //////////*/
 
-@media (min-width: 600px) {
+@media (min-width: 670px) {
     .card {
       flex: 1 40%;
       margin: 5%;
