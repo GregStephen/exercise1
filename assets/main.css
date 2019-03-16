@@ -32,6 +32,7 @@ footer {
     flex-flow: row wrap;
     justify-content: flex-start;
     align-content: space-around;
+    margin: 5%;
 }
 
 .card {
@@ -53,6 +54,7 @@ footer {
     width: 100%;
     margin-bottom: -0.5em;
     margin-top: 0;
+    text-align: center;
 }
 
 .productName {
@@ -107,9 +109,9 @@ footer {
 
 /*//////////////  MEDIA QUERIES  //////////*/
 
-@media (min-width: 630px) {
+@media (min-width: 640px) {
     .card {
-      flex: 1 35%;
+      flex: 1 25%;
       margin: 5%;
     }
   }
